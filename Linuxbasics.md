@@ -62,3 +62,7 @@
 13. mv 
 
 -  To move one folder or files mv folder_name/ to Folder_name/
+
+14. cp
+
+  - copy files and directories
