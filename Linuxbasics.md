@@ -98,6 +98,9 @@
   
    - To print some text and also to pass arguments to a text file 
    - echo "username=Arun" > config.text
+   - echo "KEY=12345678" >> config.text
+   - echo {a,b,c} .text
+     - checking the combinations b/t the txt
 
 20. wc
 
@@ -115,3 +118,7 @@
 
   - sort lines of text files
   - sort text.text | uniq 
+
+23.  echo app. {js,html,py,css}
+
+  - create app.js and echo {1..99}
