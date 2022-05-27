@@ -63,6 +63,14 @@
 
 -  To move one folder or files mv folder_name/ to Folder_name/
 
-14. cp
+14. cp cp -r to copy folder
 
   - copy files and directories
+
+15. head 
+ 
+  - to find howmany linesw are presened in the text file == its not show morethan 100 lines
+
+    tail , tail -n [10]= lines 
+  
+  - outpu the last 10 line the text file or last part the file 
