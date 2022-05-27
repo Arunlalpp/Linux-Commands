@@ -71,6 +71,25 @@
  
   - to find howmany linesw are presened in the text file == its not show morethan 100 lines
 
-    tail , tail -n [10]= lines 
+  - tail , tail -n [10]= lines 
   
   - outpu the last 10 line the text file or last part the file 
+
+16. date 
+
+  - Print the current date 
+
+17. head filename
+
+  - display current date
+
+18. cat 
+
+   - concatenate files and print on the standard output
+   - Diplay the text file details 
+
+   - cat text.text text.text > concatinate.txt
+
+18. cat -n 
+
+   - To found all lins in te text    
