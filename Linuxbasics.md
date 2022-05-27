@@ -3,7 +3,7 @@
 ## Description about the auther 
 - man whoami
 - man man what are the page do you wnat ?
-//
+
 ## Linux Commands
 1. pwd 
 
@@ -107,4 +107,11 @@
 
   - wc text.text text2.txt | wc - l  
 
-21.   
+21. sort
+
+  - sort lines of text files
+
+22. uniq
+
+  - sort lines of text files
+  - sort text.text | uniq 
