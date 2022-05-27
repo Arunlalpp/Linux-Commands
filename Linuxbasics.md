@@ -93,3 +93,18 @@
 18. cat -n 
 
    - To found all lins in te text    
+
+19. echo 
+  
+   - To print some text and also to pass arguments to a text file 
+   - echo "username=Arun" > config.text
+
+20. wc
+
+  - Counting he maximum number of words in the text files 
+
+  - wc -l number of lines
+
+  - wc text.text text2.txt | wc - l  
+
+21.   
