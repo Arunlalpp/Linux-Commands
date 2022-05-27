@@ -122,3 +122,20 @@
 23.  echo app. {js,html,py,css}
 
   - create app.js and echo {1..99}
+
+24. diff 
+
+   - compare files line by line
+
+25. find 
+
+  - search for files in a directory hierarchy
+  
+  - find . -name 'filename'
+
+  - find . -type d -name '*A*'
+  
+  - find . -type d -name '*.md' -not -path 'node_module';
+  
+  - find -type f -size +100k -size 1M 
+26.  
