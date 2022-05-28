@@ -262,6 +262,33 @@
 
   - nano  is  a  small and friendly editor.
 
- 40. alias
+ 40. ```alias```
 
-    - alias ll='ls -al' 
+     ```alias ll='ls -al'``` 
+
+41. ```bash```
+
+  - GNU Bourne-Again SHell
+
+42. ```xargs```
+
+  - Output of the command is used as ouput of another command
+
+  ```command1 | xargs command2```
+
+  ```cat everything.text | xargs rm```
+
+43. ```ln```
+
+   - It sis used to create links 
+
+    ````ln text.text text.text``` 
+
+44. ```who```
+
+   - It displays the users logged in to the system 
+
+
+45. ```sudo```
+
+   - Used to run a command as root 
