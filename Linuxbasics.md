@@ -292,3 +292,29 @@
 45. ```sudo```
 
    - Used to run a command as root 
+
+46. ```passwd```
+
+   - Users uin the linux have a password asssigned,Changing passwor using passwd
+
+47. ```chown```
+
+  - owner of a file can do everything with it. to decide the fate of the file.
+
+    ```chow -R <owner> <file>```
+
+48.  ```-rw-rw-r--```
+
+       ```drwxr-xr-x```
+
+      - regular file
+
+      - d directory
+      - c charactor special file
+      - l symbolic link
+
+
+49. ```chmod```
+
+   - change file mode bits
+   - Operating system has 3 permissions Read,Write,Execute
