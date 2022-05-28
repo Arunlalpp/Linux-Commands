@@ -216,3 +216,52 @@
   - report a snapshot of the current processes.
 
     ```ps a ```
+
+  - Select all processes.  Identical to -e.
+
+34. ```kill all```
+
+   -  I will kill sending signal to specific id will send the signal to multiple process at once 
+
+35. ```sleep```
+
+   - delay for a specified amount of time
+
+36. ```gzip```
+
+   - We can compress using this gzipe compression protocol named LZ77 using the gzip command 
+
+   - ```gzip filename```
+   - ```gzip -k filename```
+
+37. ```gunzip```
+
+    This will gunzip and will remove the .gz extension putting the result in the ```filename``` file. it will overwrite that.  
+
+  - ```gunzip filename.gz```
+
+  - ```gzip -d filename.gz```
+
+
+38. ```tar```
+
+    ```tar -cf archive.tar file1 file2```
+
+  - An archiving utility
+
+  - ```tar -xf archive.tar```
+
+  -To extract file from archive files
+
+  - ```tar -xf archive.tar -c diractory```
+
+  - To specify the directory
+
+
+39. ```nano```
+
+  - nano  is  a  small and friendly editor.
+
+ 40. alias
+
+    - alias ll='ls -al' 
