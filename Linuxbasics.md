@@ -138,4 +138,25 @@
   - find . -type d -name '*.md' -not -path 'node_module';
   
   - find -type f -size +100k -size 1M 
-26.  
+  
+  ## find files edited morethan 3 days ago
+  
+  - find . -type f -mtime +3 
+
+  - You can delete all files matching a search by adding the delete option.This deletes all the files edited in the last 24 hours
+  
+  - find . -type f -mtime +3 -delete
+
+  ## You can exixute a command on each result of the search. In this example we run CAT to print the file content   
+
+
+  - find . -type f -exec  cat {} \;
+
+  - notice terminating {} \; is filled with the file name a the execution time  
+
+26. grep
+
+  - You can use grep in search in files or combine it with pipes to filter the output of another command
+
+  - grep document.getElementById index.md   
+
