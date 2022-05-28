@@ -160,3 +160,45 @@
 
   - grep document.getElementById index.md   
 
+  - grep -nc 2 document.getElementById index.md 
+
+  - it is usefull for to print 2 lines before, and 2 lines after the matched lines to give us more contex c gives accept the number of lines
+  
+  - grep -r "Apple"
+
+  - find all possible words in the entail library "Apple" 
+
+27. du 
+
+   - To find size of the machine 
+
+   - du -h notations for human readable 
+
+   - du -m for megabytes
+
+   - du -g for gigabytes
+
+   - du -h | sort -h  
+
+28. df 
+
+  - It is used to find the disk usage information 
+
+  - i basic from will print information about the volume mount 
+
+  - using df -h (Value in human readable)
+
+ 29. history 
+
+   -  history  | less
+      history | grep "cookies"
+
+30. ps 
+
+  - Your compute is running all time, tons of different process , inspecting them suing this command  
+
+31. top 
+
+   -  Dipslay and update sorted information about the processes
+
+   -  Its used to list the process running in the real time in an dynamical real time information about the realime processin he system 
