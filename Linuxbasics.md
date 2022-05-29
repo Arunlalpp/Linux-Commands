@@ -313,7 +313,6 @@
       - c charactor special file
       - l symbolic link
 
-
 49. ```chmod```
 
    - change file mode bits
